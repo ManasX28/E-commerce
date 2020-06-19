@@ -1,7 +1,7 @@
 import CartActionType from './cart.types'
 import CartActionTypes from './cart.types'
 import {addItemToCart, removeItemFromCart} from './cart.utils'
-import cartItem from '../../components/cart-item/cart-item.component'
+
 
 const INITIAL_STATE = {
     hidden: true,

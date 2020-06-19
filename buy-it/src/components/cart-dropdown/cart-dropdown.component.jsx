@@ -5,7 +5,6 @@ import './cart-dropdown.styles.scss'
 import {connect} from 'react-redux'
 import {createStructuredSelector} from 'reselect'
 import {selectCartItems} from '../../redux/cart/cart.selector'
-import cartItem from '../cart-item/cart-item.component'
 import {toggleCartHidden} from '../../redux/cart/cart.actions'
 import {withRouter} from 'react-router-dom'
 
